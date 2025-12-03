@@ -1,0 +1,132 @@
+<title>Trường THPT Tây Ninh</title>
+
+    <style>
+        /* ĐỊNH DẠNG CHUNG*/
+        body { /* Định dạng toàn bộ trang */
+            margin: 0; /* Xóa khoảng trắng mặc định của trình duyệt */
+            font-family: Arial, sans-serif; /* Chọn font chữ chính */
+            background: linear-gradient(135deg, #d2f3ff, #ffffff); /* Tạo nền chuyển màu xanh nhạt → trắng */
+        }
+
+        /* Định dạng liên kết */
+        a { /* Định dạng thẻ <a> */
+            color: #006eff; /* Màu xanh dương */
+            text-decoration: none; /* Bỏ gạch chân mặc định */
+            font-weight: bold; /* Làm chữ đậm */
+        }
+        a:hover { /* Khi rê chuột vào liên kết */
+            text-decoration: underline; /* Hiện gạch chân */
+        }
+        
+        /*ĐỊNH DẠNG HEADER VÀ TIÊU ĐỀ*/
+        header { /* Định dạng khu vực đầu trang */
+            padding: 20px; /* Thêm khoảng cách bên trong */
+        }
+        
+        h1 { /* Định dạng tiêu đề lớn */
+            font-size: 50px; /* Kích thước chữ lớn */
+            margin: 20px; /* Tạo khoảng cách ngoài 20px */
+            /* Hiệu ứng chữ cầu vồng */
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Gradient 7 màu */
+            -webkit-background-clip: text; /* Chỉ áp gradient vào phần chữ */
+            color: transparent; /* Làm chữ trong suốt để lộ gradient */
+            font-weight: bold; /* Chữ đậm */
+        }
+        
+        h2 { /* Định dạng tiêu đề cấp 2 */
+            text-align: center; /* Căn giữa dòng chữ */
+        }
+
+        /*ĐỊNH DẠNG CONTAINER VÀ NỘI DUNG*/
+        .container { /* Khối bao lớn chứa nội dung */
+            width: 90%; /* Chiếm 90% chiều ngang */
+            max-width: 900px; /* Chiều rộng tối đa 900px */
+            margin: auto; /* Căn giữa container */
+            background: #ffffffcc; /* Màu nền trắng mờ (80% opacity) */
+            padding: 20px; /* Khoảng cách trong */
+            border-radius: 10px; /* Bo góc container */
+            box-shadow: 0px 0px 10px #0003; /* Đổ bóng nhẹ bên ngoài */
+        }
+        
+        /* Ảnh chính */
+        img:not(.side-img) { /* Áp dụng cho mọi ảnh trừ ảnh side-img */
+            width: 100%; /* Độ rộng 100% container */
+            border-radius: 10px; /* Bo góc ảnh */
+            margin-top: 10px; /* Khoảng cách phía trên */
+            display: block; /* Ảnh chiếm toàn bộ một dòng */
+        }
+        
+        /* Ảnh phụ, bên cạnh văn bản */
+        .side-img { /* Định dạng hình phụ */
+            width: 360px; /* Đặt kích thước cố định */
+            /* Định dạng cuối cùng: nổi sang phải */
+            float: right; /* Ảnh trôi sang phải để văn bản bao quanh */
+            margin-left: 30px; /* Tạo khoảng cách bên trái */
+            margin-bottom: 10px; /* Khoảng cách dưới ảnh */
+            border-radius: 10px; /* Bo góc mềm */
+        }
+        
+        /*ĐỊNH DẠNG FOOTER*/
+        footer { /* Chân trang */
+            text-align: center; /* Căn giữa */
+            padding: 15px; /* Thêm khoảng cách bên trong */
+            margin-top: 30px; /* Tạo khoảng cách phía trên */
+            /* Gộp các định dạng footer lại */
+            background: #e8f3ff; /* Màu nền xanh nhạt hài hòa */
+            border-radius: 8px; /* Bo góc */
+            font-weight: bold; /* Chữ đậm */
+        }
+</style>
+
+
+<body>
+    <header>
+    	<h1>Trường THPT Tây Ninh</h1>
+    </header>
+<p><h3>Mục lục nè</h3></p>
+<a href="#Gioithieu">• Giới thiệu về trường</a><br>
+<a href="#Hinhanhtruong">• Hình ảnh về trường</a><br>
+<a href="#Sukien">• Một số sự kiện nổi bật của trường</a><br>
+<a href="#Tapthe">• Tập thể những người chèo lái con thuyền tri thức</a><br>
+<a href="#Lienhe">• Thông tin liên hệ</a>
+    <div class="container">
+        <img src='https://uploads.onecompiler.io/445an5tdu/445vpqz32/db8bda55-8606-4474-a95c-249b294746c8.jpg' alt="Ảnh cổng trường">
+    	<h2 id="Gioithieu">• Giới thiệu</h2>
+    	<p>
+            Trường THPT Tây Ninh là một trong những ngôi trường có bề dày truyền thống hàng đầu của tỉnh Tây Ninh, được biết đến như một trung tâm giáo dục chất lượng và uy tín lâu năm.<br><br> Tọa lạc ngay tại trung tâm thành phố Tây Ninh, nhà trường sở hữu môi trường học tập năng động, hiện đại và thân thiện, tạo điều kiện để học sinh phát triển toàn diện cả về tri thức, kỹ năng và nhân cách.h cho nhiều thế hệ học sinh trưởng thành, giữ vững vai trò là điểm sáng của ngành giáo dục tỉnh nhà và góp phần đào tạo nhân tài cho quê hương, đất nước.
+    	</p>
+
+        <h2 id="Hinhanhtruong">• Hình ảnh trường</h2>
+    	      <img src="https://nhadattayninh.net/wp-content/uploads/2024/03/DSC02430.jpg" alt="Toàn cảnh trường">
+        <div class="img-row">
+            <img class="side-img" src="https://i.ibb.co/xStF6JvM/583823186-874736578243099-3687286469637068179-n.jpg" alt="Ảnh học sinh">
+        </div>
+        <div>
+            <img class="side-img" src="https://i.ibb.co/d4rXdhNg/584605409-874736691576421-6479800452393839783-n.jpg" alt="Ảnh khác của trường">
+        </div>
+        <div style="clear: both;"></div> <img src="https://uploads.onecompiler.io/445an5tdu/445vpqz32/23e07eed-45f4-40b4-be40-51df87da1d87.jpg" alt="Ảnh cơ sở vật chất">
+        <h2>• Khuôn viên trường </h2><br>
+    	<img src="https://uploads.onecompiler.io/445an5tdu/445vpqz32/bbbad429-7ccf-4e66-8ed2-4e3fdb3a5f6d.jpg" alt="Ảnh sân thể thao"><br><br>
+    	<p> Khuôn viên nhà trường được xây dựng rộng rãi và hiện đại, phục vụ tốt cho cả học tập lẫn thể chất. Trường sở hữu một nhà thi đấu đa năng được thiết kế để học sinh tập luyện và thi đấu cầu lông, bóng chuyền, cùng với hai sân bóng chuyền ngoài trời và một sân đá banh đáp ứng nhu cầu rèn luyện thể thao hằng ngày. Những công trình này góp phần giúp học sinh phát triển toàn diện, vừa khỏe mạnh, vừa gắn kết với bạn bè thông qua các hoạt động thể thao phong phú.
+        </p>
+
+        <h2 id="Sukien">• Một số sự kiện nổi bật của trường</h2> <img src="https://uploads.onecompiler.io/445an5tdu/445vpqz32/6d786a93-34d7-4186-a6a3-39c03178dd04.jpg" alt="Ảnh văn nghệ"><br><br>
+    	<p>
+            Hoạt động văn nghệ của Trường THPT Tây Ninh luôn rất sôi nổi và giàu sức trẻ. Mỗi năm, nhà trường tổ chức nhiều chương trình như hội diễn văn nghệ chào mừng năm học mới, 20/11, Tết Nguyên đán hay các sự kiện Đoàn – Hội. Học sinh tham gia nhiệt tình với đủ thể loại: hát, múa, nhảy hiện đại, acoustic, kịch ngắn, thời trang tái chế… Không khí lúc nào cũng rộn ràng, đầy màu sắc và thể hiện đúng tinh thần năng động của tuổi học trò. Chính những hoạt động này đã góp phần tạo nên môi trường học đường vui tươi, gắn kết và giúp học sinh tự tin, phát huy năng khiếu của mình.
+    	</p><br><br>
+    	<img src="https://uploads.onecompiler.io/445an5tdu/445vpqz32/a1ce09b1-b701-49e9-8017-68c78ff7343d.jpg" alt="Ảnh hoạt động ngoại khóa">
+    	<p></p> <h2 id="Tapthe">• Tập thể những người chèo lái con thuyền tri thức </h2> 
+    	<img src="https://uploads.onecompiler.io/445an5tdu/445vpqz32/5a0b7ba8-2e25-4c8b-9d02-6f1ef8ef9437.jpg" alt="Ảnh tập thể giáo viên"><br><br>
+    	<p> Trải qua nhiều xây dựng và phát triển, Trường THPT Tây Ninh không ngừng đổi mới phương pháp dạy học, nâng cao chất lượng giáo dục và thường xuyên đạt thành tích cao trong các kỳ thi học sinh giỏi, thi tốt nghiệp THPT cũng như các hoạt động phong trào. Với đội ngũ giáo viên giàu kinh nghiệm và tâm huyết, nhà trường luôn đồng hành, truyền cảm hứng và định hướng phát triển toàn diện cho từng học sinh. Chính nhờ những nỗ lực không ngừng này, THPT Tây Ninh đã khẳng định vị thế là một trong những ngôi trường uy tín hàng đầu của tỉnh, tiếp tục chắp cánh cho nhiều thế hệ học sinh vươn xa, góp phần quan trọng vào sự nghiệp giáo dục và phát triển của quê hương
+        </p>
+
+        <h2 id="Lienhe">Thông tin liên hệ</h2>
+    	<p><b>Địa chỉ:</b> Nguyễn Chí Thanh, khu phố 5, phường Tân Ninh, tỉnh Tây Ninh</p>
+    	<p><b>Trang web của trường:</b></p><a href="https://thpt-tayninh.violet.vn/" target="_blank">https://thpt-tayninh.violet.vn/</a>
+    	<p><b>Facebook:</b></p><a href="https://www.facebook.com/profile.php?id=100072392413520" target="_blank">https://www.facebook.com/profile.php?id=100072392413520</a>
+    </div>
+
+    <footer>
+    	© 2025 Trường THPT Tây Ninh
+    </footer>
+</body>
